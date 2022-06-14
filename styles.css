@@ -144,43 +144,9 @@ footer #nondisclaimer .social .fa-instagram {
     color: white;
 }
 
-/* Media Queries */
+/* @media Q's */ 
 
-/*iPad Sizing*/
-@media (max-width: 992px) {
-    footer #nondisclaimer .copy {
-        padding: 3.5em 0em 3.5em 0em;
-        text-align: center;
-        float: none;
-        font-size: 0.9em;
-      }
-      footer #nondisclaimer .social {
-        padding: 2.5em 0;
-        margin: 0;
-        text-align: center;
-        float: none;
-      }
-}
-
-
-/*smol Sizing*/ 
-@media (max-width: 768px) {
-    footer #nondisclaimer .copy {
-        padding: 3.5em 0em 3.5em 0em;
-        text-align: center;
-        float: none;
-        font-size: 0.9em;
-      }
-      footer #nondisclaimer .social {
-        padding: 2.5em 0;
-        margin: 0;
-        text-align: center;
-        float: none;
-      }
-}
-
-
-/*iPad Sizing*/ 
+/*iPad Sizing 992*/ 
 
 @media (max-width: 992px) {
     .logo img {
@@ -191,7 +157,7 @@ footer #nondisclaimer .social .fa-instagram {
         background-color:rgba(255, 255, 255, 0);
         position: absolute;
         padding-left: 390px;
-        padding-top: 25px;
+        padding-top: 20px;
         
         
       }
@@ -218,8 +184,85 @@ footer #nondisclaimer .social .fa-instagram {
         margin-top: 1em;
       }
 
+      @media (max-width: 992px) {
+        footer #nondisclaimer .copy {
+            padding: 3.5em 0em 3.5em 0em;
+            text-align: center;
+            float: none;
+            font-size: 0.9em;
+          }
+          footer #nondisclaimer .social {
+            padding: 2.5em 0;
+            margin: 0;
+            text-align: center;
+            float: none;
+          }
+    }
 
-/* iPhone Sizing */
+/* iPad mini 768 */ 
+
+@media (max-width: 768px) {
+
+    main-header {
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 338px;
+        margin: 2em auto 0 auto;
+        min-height: 100px;
+        height: 100px;
+    } 
+
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        background-color:rgba(255, 255, 255, 0);
+        position: absolute;
+        padding-top: 20px
+        
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        background-color: #fff;
+      }
+      
+         #navbarContent{ 
+        text-align: left;
+        margin-left: -100px;
+        margin-top: 45px;
+     }
+    
+
+      }
+      main {
+        padding: 3em 1em 3em 1em;
+        margin: 0;
+      }
+      #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+      }
+
+      @media (max-width: 768px) {
+        footer #nondisclaimer .copy {
+            padding: 3.5em 0em 3.5em 0em;
+            text-align: center;
+            float: none;
+            font-size: 0.9em;
+          }
+          footer #nondisclaimer .social {
+            padding: 2.5em 0;
+            margin: 0;
+            text-align: center;
+            float: none;
+          }
+    }
+
+
+
+
+/* iPhone Sizing X and above 414 */
 
 @media (max-width: 414px) {
 
@@ -266,6 +309,131 @@ footer #nondisclaimer .social .fa-instagram {
       }
 
       @media (max-width: 414px) {
+        footer #nondisclaimer .copy {
+            padding: 3.5em 0em 3.5em 0em;
+            text-align: center;
+            float: none;
+            font-size: 0.9em;
+          }
+          footer #nondisclaimer .social {
+            padding: 2.5em 0;
+            margin: 0;
+            text-align: center;
+            float: none;
+          }
+    }
+
+
+    /* Small Sizing 576 */
+
+    @media (max-width: 576px) {
+
+        main-header {
+            background-color: rgb(255, 255, 255, 0.8);
+            width: 338px;
+            margin: 2em auto 0 auto;
+            min-height: 100px;
+            height: 100px;
+        } 
+    
+        .logo img {
+            position: relative;
+            bottom: 8px;
+        }
+        .main-menu {
+            background-color:rgba(255, 255, 255, 0);
+            position: absolute;
+            padding-left: 250px;
+            padding-top: 20px
+            
+          }
+          .main-menu ul li {
+            border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+            background-color: #fff;
+          }
+          
+             #navbarContent{ 
+            text-align: left;
+            margin-left: -100px;
+            margin-top: 45px;
+         }
+        
+    
+          }
+          main {
+            padding: 3em 1em 3em 1em;
+            margin: 0;
+          }
+          #home .main-col-content {
+            padding: 25px;
+            min-height: 450px;
+            margin-top: 1em;
+          }
+    
+          @media (max-width: 576px) {
+            footer #nondisclaimer .copy {
+                padding: 3.5em 0em 3.5em 0em;
+                text-align: center;
+                float: none;
+                font-size: 0.9em;
+              }
+              footer #nondisclaimer .social {
+                padding: 2.5em 0;
+                margin: 0;
+                text-align: center;
+                float: none;
+              }
+        }
+    
+
+
+    /* iPhone Sizing SE and below 375 */
+
+@media (max-width: 375px) {
+
+    main-header {
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 338px;
+        margin: 2em auto 0 auto;
+        min-height: 100px;
+        height: 100px;
+    } 
+
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        background-color:rgba(255, 255, 255, 0);
+        position: absolute;
+        padding-left: 85px;
+        padding-top: 20px
+        
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        background-color: #fff;
+      }
+      
+         #navbarContent{ 
+        text-align: left;
+        margin-left: -100px;
+        margin-top: 45px;
+     }
+    
+
+      }
+      main {
+        padding: 3em 1em 3em 1em;
+        margin: 0;
+      }
+      #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+      }
+
+      @media (max-width: 375px) {
         footer #nondisclaimer .copy {
             padding: 3.5em 0em 3.5em 0em;
             text-align: center;
