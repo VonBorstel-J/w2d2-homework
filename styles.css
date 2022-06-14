@@ -6,7 +6,7 @@ header {
 }
 #home header {
     background:  no-repeat lightgrey url(images/cliff_ocean.jpg);
-    background-size: cover; 
+    background-size:cover;
     background-position:center center;
 }
 .main-header {
@@ -144,14 +144,10 @@ footer #nondisclaimer .social .fa-instagram {
     color: white;
 }
 
-/* Home */
-
-
-
-/* ACTIVATE BELOW WHEN TESTING NAVIGATION AND OTHERS FOR RWD */
-
 /* Media Queries */
-/*@media (max-width: 768px) {
+
+/*iPad Sizing*/
+@media (max-width: 992px) {
     footer #nondisclaimer .copy {
         padding: 3.5em 0em 3.5em 0em;
         text-align: center;
@@ -166,19 +162,51 @@ footer #nondisclaimer .social .fa-instagram {
       }
 }
 
+
+/*smol Sizing*/ 
+@media (max-width: 768px) {
+    footer #nondisclaimer .copy {
+        padding: 3.5em 0em 3.5em 0em;
+        text-align: center;
+        float: none;
+        font-size: 0.9em;
+      }
+      footer #nondisclaimer .social {
+        padding: 2.5em 0;
+        margin: 0;
+        text-align: center;
+        float: none;
+      }
+}
+
+
+/*iPad Sizing*/ 
+
 @media (max-width: 992px) {
     .logo img {
         position: relative;
         bottom: 8px;
     }
     .main-menu {
-        width: 200px;
-        background-color:rgb(255, 255, 255);
+        background-color:rgba(255, 255, 255, 0);
         position: absolute;
-        right: 1.7em;
+        padding-left: 390px;
+        padding-top: 25px;
+        
+        
       }
       .main-menu ul li {
         border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        background-color: #fff;
+    
+      }
+         #navbarContent{ 
+        text-align: left;
+        margin-left: -100px;
+        margin-top: 45px;
+     }
+    
+
       }
       main {
         padding: 3em 1em 3em 1em;
@@ -189,4 +217,65 @@ footer #nondisclaimer .social .fa-instagram {
         min-height: 450px;
         margin-top: 1em;
       }
-} */
+
+
+/* iPhone Sizing */
+
+@media (max-width: 414px) {
+
+    main-header {
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 338px;
+        margin: 2em auto 0 auto;
+        min-height: 100px;
+        height: 100px;
+    } 
+
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        background-color:rgba(255, 255, 255, 0);
+        position: absolute;
+        padding-left: 114px;
+        padding-top: 20px
+        
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        background-color: #fff;
+      }
+      
+         #navbarContent{ 
+        text-align: left;
+        margin-left: -100px;
+        margin-top: 45px;
+     }
+    
+
+      }
+      main {
+        padding: 3em 1em 3em 1em;
+        margin: 0;
+      }
+      #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+      }
+
+      @media (max-width: 414px) {
+        footer #nondisclaimer .copy {
+            padding: 3.5em 0em 3.5em 0em;
+            text-align: center;
+            float: none;
+            font-size: 0.9em;
+          }
+          footer #nondisclaimer .social {
+            padding: 2.5em 0;
+            margin: 0;
+            text-align: center;
+            float: none;
+          }
+    }
