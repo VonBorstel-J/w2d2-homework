@@ -2,35 +2,35 @@
 /* Header */
 header {
     width: 100%;
-    min-height: 400px;
-    padding-top: 3em;
+    min-height: 275px;
+   
 }
-#home header {
-background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-background-size: cover;
-}
-
-#contact1 header {
-background: no-repeat lightgrey url(images/cliff_rock.jpg);
-background-size: cover;
+#home  {
+background: no-repeat white url(images/cliff_ocean.jpg);
+background-size: 100% 400px;
 }
 
-#contact header {
-    background: no-repeat lightgrey url(images/forest_cliff.jpg);
-    background-size: cover;
+#contact1 {
+    background: no-repeat white url(images/cliff_rock.jpg);
+    background-size: 100% 400px;
+}
+
+#contact  {
+    background: no-repeat white url(images/forest_cliff.jpg);
+    background-size: 100% 400px;
     }
 
 
 
-#activities header {
-        background: no-repeat lightgrey url(images/runfly.jpg);
-        background-size: cover;
+#activities  {
+    background: no-repeat white url(images/runfly.jpg);
+    background-size: 100% 400px;
         }
 
 
 .main-header {
-    background-color: rgb(255, 255, 255, 0.8);
-    width: 700px; 
+    background-color: rgba(38, 41, 61, 0.7);
+   
     margin: 2em auto 0 auto; 
     min-height: 100px;
     height: 100px;
@@ -61,7 +61,7 @@ background-size: cover;
             }
                 .main-menu ul li a{
                     text-decoration: none;
-                    color: #888;
+                    color: rgb(255, 255, 255)
                 }
                     .main-menu ul li a:hover {
                         color: #9ed034;
@@ -287,10 +287,9 @@ input[type=text], name {
                                                                     }
                                                                         .randomcode #codes { 
                                                                             display: inline;
-                                                                                                                   
                                                                         }
                                                                         
-                                                                      
+
 
 section {
     width:100%; 
@@ -520,8 +519,8 @@ section #partners .partner img {
             
           }
           .main-menu ul li {
-            border-bottom: 1px solid rgb(188, 190, 188);
-            background-color: #fff;
+            border-bottom: 1px solid rgb(252, 254, 252);
+            background-color: rgba(38, 41, 61, 0.7);
             z-index: 10;
           }
              #navbarContent{ 
@@ -596,7 +595,7 @@ section #partners .partner img {
           }
           .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-            background-color: #fff;
+            background-color: rgba(38, 41, 61, 0.7);
           }
           
              #navbarContent{ 
@@ -666,7 +665,7 @@ section #partners .partner img {
           }
           .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-            background-color: #fff;
+            background-color: rgba(38, 41, 61, 0.7);
           }
           
              #navbarContent{ 
@@ -727,7 +726,7 @@ section #partners .partner img {
               }
               .main-menu ul li {
                 border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-                background-color: #fff;
+                background-color: rgba(38, 41, 61, 0.7);
               }
               
                  #navbarContent{ 
@@ -737,8 +736,8 @@ section #partners .partner img {
              }
             
         
-              
-              main {
+            
+            main {
                 padding: 3em 1em 3em 1em;
                 margin: 0;
               }
@@ -770,7 +769,6 @@ section #partners .partner img {
     
         main-header {
             background-color: rgb(255, 255, 255, 0.8);
-            width: 338px;
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
@@ -789,7 +787,7 @@ section #partners .partner img {
           }
           .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-            background-color: #fff;
+            background-color: rgba(38, 41, 61, 0.7);
           }
           
              #navbarContent{ 
@@ -803,6 +801,7 @@ section #partners .partner img {
           main {
             padding: 3em 1em 3em 1em;
             margin: 0;
+            text-align: center;
           }
           #home .main-col-content {
             padding: 25px;
