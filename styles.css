@@ -147,6 +147,45 @@ footer #nondisclaimer .social .fa-instagram {
 
 /* @media Q's */ 
 
+
+@media (min-width: 1000px) {
+
+/* Styling for main content at this resolution */ 
+
+   .container-fluid { 
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   #left { 
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    margin-left: 40px;
+   }
+
+  #right { 
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left:100px;
+   }
+  
+
+      footer #nondisclaimer .copy {
+          padding: 3.5em 0em 3.5em 0em;
+          text-align: center;
+          float: none;
+          font-size: 0.9em;
+        }
+        footer #nondisclaimer .social {
+          padding: 2.5em 0;
+          margin: 0;
+          text-align: center;
+          float: none;
+
+        }
+      }
+
 /*iPad & beyond Sizing 992*/ 
 
 @media (max-width: 992px) {
@@ -163,9 +202,9 @@ footer #nondisclaimer .social .fa-instagram {
         
       }
       .main-menu ul li {
-        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        border-bottom: 1px solid rgb(188, 190, 188);
         background-color: #fff;
-    
+        z-index: 10;
       }
          #navbarContent{ 
         text-align: left;
@@ -179,25 +218,26 @@ footer #nondisclaimer .social .fa-instagram {
 
 /* Styling for main content at this resolution */ 
 
-    .row {
-        border: 1px solid rgba(107, 107, 107, 0.684);
-        background: #ffffff;
-        padding-top: 5px;
-        text-align:center;
-    }
+     .container-fluid { 
+      display: flex;
+      flex-wrap: wrap;
+     }
 
-    .title h1 { 
-        text-align:center; 
+     #left { 
+      text-align: center;
+      border: 3px solid rgba(128, 128, 128, 0.641);
+      margin-bottom: 50px;
+      padding-bottom: 100px;
+      margin-left: 40px;
+     }
 
-    }
-
-    .row{
-        padding: 3em 1em 3em 1em;
-        margin: 0;
-        
- }
-
-
+    #right { 
+      text-align: center;
+      border: 3px solid rgba(128, 128, 128, 0.641);
+      margin-bottom: 50px;
+      margin-left: 40px;
+     }
+    
 
         footer #nondisclaimer .copy {
             padding: 3.5em 0em 3.5em 0em;
@@ -210,8 +250,9 @@ footer #nondisclaimer .social .fa-instagram {
             margin: 0;
             text-align: center;
             float: none;
+
           }
-    }
+        }
 
 /* iPad mini 768 */ 
 
@@ -258,10 +299,11 @@ footer #nondisclaimer .social .fa-instagram {
         margin-top: 1em;
       }
 
-      .footer-columns { 
-        
+       #partners {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
       }
-
 
 
         footer #nondisclaimer .copy {
@@ -283,7 +325,7 @@ footer #nondisclaimer .social .fa-instagram {
 
 /* iPhone Sizing X and above 414 */
 
-@media (max-width: 414px) {
+@media (max-width: 450px) {
 
     main-header {
         background-color: rgb(255, 255, 255, 0.8);
@@ -311,7 +353,7 @@ footer #nondisclaimer .social .fa-instagram {
       
          #navbarContent{ 
         text-align: left;
-        margin-left: -100px;
+       
         margin-top: 45px;
      }
     
@@ -326,8 +368,7 @@ footer #nondisclaimer .social .fa-instagram {
         min-height: 450px;
         margin-top: 1em;
       }
-    }
-      @media (max-width: 414px) {
+ 
         footer #nondisclaimer .copy {
             padding: 3.5em 0em 3.5em 0em;
             text-align: center;
@@ -388,8 +429,7 @@ footer #nondisclaimer .social .fa-instagram {
             min-height: 450px;
             margin-top: 1em;
           }
-        }
-          @media (max-width: 576px) {
+      
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
@@ -451,8 +491,7 @@ footer #nondisclaimer .social .fa-instagram {
         min-height: 450px;
         margin-top: 1em;
       }
-    }
-      @media (max-width: 375px) {
+
         footer #nondisclaimer .copy {
             padding: 3.5em 0em 3.5em 0em;
             text-align: center;
