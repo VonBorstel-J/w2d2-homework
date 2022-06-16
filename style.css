@@ -254,6 +254,7 @@ input[type=text], name {
                                                                 height: 2.5em;
                                                                 font-size: 1.2em;
                                                                 font-weight: bold;
+                                                                /*backgroung-color: #4977D1;*/
                                                                 color: #ffffff; 
                                                                 border: none;
                                                             }
@@ -277,28 +278,6 @@ input[type=text], name {
                                                                         
 
 
-section {
-    width:100%; 
-    background-color: #4288C3;
-    }
-    section #album {
-        width: 1200px; 
-        padding: 2em 0 2em 0; 
-        margin: 0 auto; 
-        text-align: center;
-    }
-        section #album #photo {
-            display: inline-block;
-            margin: 0 0.75em; 
-            padding: 1.3em 1.5em;
-            background-color: #fff;
-            border-radius: 50%;
-        }
-            section #album #photo img {
-                width: 90px; 
-                height: 90px; 
-            }
-    
 /* Footer */
 
 footer{
@@ -401,21 +380,23 @@ table {
 section {
     width: 100%;
     background-color: #4288C3;
+    list-style-type: none;
 }
-section #partners {  
+section {  
     width: 1200px;
     padding: 2em 0 2em 0;
     margin: 0 auto;
     text-align: center;
+    list-style-type: none;
 }
-section #partners .partner {
+.partner {
     display: inline-block;
     margin: 0 0.75em;
     padding: 1.3em 1.5em;
     background-color: #fff;
     border-radius: 50%;
 }
-section #partners .partner img {
+.partner img {
     width: 90px;
     height: 90px;
 }
@@ -463,6 +444,8 @@ section #partners .partner img {
     .container-fluid { 
         display: flex;
         flex-wrap: wrap;
+        padding-left: 0%;
+        justify-content: center;
     }
     .logo img {
         position: relative;
@@ -496,6 +479,7 @@ section #partners .partner img {
         border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
         margin-left: 83px;
+        padding-left: 20px;
     }
 
     #right { 
@@ -513,8 +497,6 @@ section #partners .partner img {
     #cliffspic { 
         margin-left: 15%;
     }
-
-    
 
 
 
@@ -548,6 +530,7 @@ section #partners .partner img {
     .container-fluid { 
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
     .logo img {
         position: relative;
@@ -744,7 +727,9 @@ section #partners .partner img {
             margin-left: 20%;
         }
         
-        
+        .container-fluid { 
+            justify-content: center;
+        }
 
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
@@ -765,7 +750,7 @@ section #partners .partner img {
     
     /* iPhone Sizing X and above 425 */
     
-    @media (max-width: 425px) {
+    @media (max-width: 426px) {
     
         .main-header {
             margin: 2em auto 0 auto;
@@ -829,6 +814,11 @@ section #partners .partner img {
          .text { 
           padding-left: 0;
         }
+
+       #part{ 
+         padding-left: 17px;
+       }
+
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
@@ -844,93 +834,16 @@ section #partners .partner img {
         
             }
     
-    /*   @media (max-width: 425px) {
-    
-            .main-header {
-                margin: 2em auto 0 auto;
-                min-height: 100px;
-                height: 100px;
-            } 
-            .logo img {
-                position: relative;
-                bottom: 8px;
-            }
-            .main-menu {
-                background-color:rgba(255, 255, 255, 0);
-                position: absolute;
-                padding-top: 20px;
-                padding-left: 390px;
-                
-              }
-              .main-menu ul li {
-                border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-                background-color: rgba(38, 41, 61, 0.7);
-              }
-              
-                 #navbarContent{ 
-                text-align: left;
-                margin-left: -100px;
-                margin-top: 45px;
-             }
-            
-        
-            
-            main {
-                padding: 3em 1em 3em 1em;
-                margin: 0;
-              }
-              #home .main-col-content {
-                padding: 25px;
-                min-height: 450px;
-                margin-top: 1em;
-              }
-              #title {
-                padding-bottom: 25px;
-              }
-    
-              #left { 
-                text-align: center;
-                border: 3px solid rgba(128, 128, 128, 0.641);
-                margin-bottom: 15px;
-                padding-bottom: 100px;
-                margin-left: 0px;
-               }
-          
-              #right { 
-                text-align: center;
-                border: 3px solid rgba(128, 128, 128, 0.641);
-                margin-bottom: 50px;
-                margin-left: 0px;
-               }
-        
-               .text { 
-                padding-left: 0;
-               }
-        
-                footer #nondisclaimer .copy {
-                    padding: 3.5em 0em 3.5em 0em;
-                    text-align: center;
-                    float: none;
-                    font-size: 0.9em;
-                  }
-                  footer #nondisclaimer .social {
-                    padding: 2.5em 0;
-                    margin: 0;
-                    text-align: center;
-                    float: none;
-                  }
-            }
-        
-    */
     
         /* iPhone Sizing SE and below 375 */
     
-    @media (max-width: 375px) {
+    @media (max-width: 376px) {
     
         .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
+            padding-left: -45px;
         } 
     
             #home { 
@@ -1050,7 +963,7 @@ section #partners .partner img {
             }
             
             #contact  {
-                background: no-repeat white url(images/cliff_ocean.jpg);
+                background: no-repeat white url(images/cliff-north-mountain.jpg);
                 background-size: 380px 380px;
                 width: 380px        
             }
@@ -1058,7 +971,7 @@ section #partners .partner img {
             
             
             #activities  {
-                background: no-repeat white url(images/cliff_ocean.jpg);
+                background: no-repeat white url(images/runfly.jpg);
                 background-size: 380px 380px;
                 width: 380px                  
             }
@@ -1105,6 +1018,14 @@ section #partners .partner img {
                 margin-top: 1em;
             }
 
+
+            h1 {
+                padding-left: 7px;
+            }
+
+            p { 
+                padding-left: 7px;
+            }
             #title {
                 padding-bottom: 25px;
                 padding-left: 22px;
