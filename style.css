@@ -30,10 +30,9 @@ background-size: 100% 400px;
 
 .main-header {
     background-color: rgba(38, 41, 61, 0.7);
-   
     margin: 2em auto 0 auto; 
     min-height: 100px;
-    height: 100px;
+    
 }
     .main-header .logo img {
         width: 100px;
@@ -43,15 +42,13 @@ background-size: 100% 400px;
     }
 
      /* Navigation */
-        .main-menu {
-            margin-left: 227px; 
+        .main-menu { 
             font-weight: 400; 
 
         }
             .main-menu ul li {
                 list-style-type: none;  
                 display: inline-block;
-                float: left;
                 padding-left: 25px;
                 padding-right: 25px;
                 border-left: 1px solid rgba(202, 204, 202, 0.6);
@@ -468,26 +465,36 @@ section #partners .partner img {
 @media (min-width: 1000px) {
 
     /* Styling for main content at this resolution */ 
-    
+
        .container-fluid { 
         display: flex;
         flex-wrap: wrap;
        }
-    
+  
+       #title { 
+        text-align: center;
+        padding-bottom: 40px;
+       }
+
+       .text { 
+            padding-left: 0;
+       }
+
        #left { 
         text-align: center;
+        border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
-        padding-bottom: 100px;
-        margin-left: 40px;
+        margin-left: 83px;
        }
-    
+  
       #right { 
         text-align: center;
+        border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
-        margin-left:100px;
+        margin-left: 40px;
        }
       
-    
+  
           footer #nondisclaimer .copy {
               padding: 3.5em 0em 3.5em 0em;
               text-align: center;
@@ -499,9 +506,8 @@ section #partners .partner img {
               margin: 0;
               text-align: center;
               float: none;
-    
-            }
           }
+        }
     
     /*iPad & beyond Sizing 992*/ 
     
@@ -513,7 +519,6 @@ section #partners .partner img {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-left: 390px;
             padding-top: 20px;
             
             
@@ -535,6 +540,13 @@ section #partners .partner img {
     
     /* Styling for main content at this resolution */ 
     
+
+         #title { 
+            text-align: center;
+            padding-bottom: 40px;
+         }
+
+
          .container-fluid { 
           display: flex;
           flex-wrap: wrap;
@@ -575,9 +587,7 @@ section #partners .partner img {
     
     @media (max-width: 768px) {
     
-        main-header {
-            background-color: rgb(255, 255, 255, 0.8);
-            width: 338px;
+        .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
@@ -590,13 +600,17 @@ section #partners .partner img {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-top: 20px
-            
+            padding-top: 20px;
+            padding-left: 680px;
           }
           .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
             background-color: rgba(38, 41, 61, 0.7);
           }
+
+          .text { 
+            padding-left: 0;
+           }
           
              #navbarContent{ 
             text-align: left;
@@ -640,13 +654,11 @@ section #partners .partner img {
     
     
     
-    /* iPhone Sizing X and above 414 */
+    /* iPhone Sizing X and above 575 */
     
-    @media (max-width: 450px) {
+    @media (max-width: 575px) {
     
-        main-header {
-            background-color: rgb(255, 255, 255, 0.8);
-            width: 338px;
+        .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
@@ -659,7 +671,7 @@ section #partners .partner img {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-left: 114px;
+            padding-left: 350px;
             padding-top: 20px
             
           }
@@ -685,7 +697,29 @@ section #partners .partner img {
             min-height: 450px;
             margin-top: 1em;
           }
-     
+        
+          #title {
+            padding-bottom: 25px;
+            text-align: left;
+          }
+        #left { 
+          text-align: center;
+          border: 3px solid rgba(128, 128, 128, 0.641);
+          margin-bottom: 15px;
+          padding-bottom: 100px;
+          margin-left: 0px;
+         }
+    
+        #right { 
+          text-align: center;
+          border: 3px solid rgba(128, 128, 128, 0.641);
+          margin-bottom: 15px;
+          margin-left: 0px;
+         }
+  
+         .text { 
+          padding-left: 0;
+         }
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
@@ -698,21 +732,18 @@ section #partners .partner img {
                 text-align: center;
                 float: none;
               }
-        }
+        
+            }
+  
+        /* Small Sizing 414 */
     
+     /*   @media (max-width: 425px) {
     
-        /* Small Sizing 576 */
-    
-        @media (max-width: 576px) {
-    
-            main-header {
-                background-color: rgb(255, 255, 255, 0.8);
-                width: 338px;
+            .main-header {
                 margin: 2em auto 0 auto;
                 min-height: 100px;
                 height: 100px;
             } 
-        
             .logo img {
                 position: relative;
                 bottom: 8px;
@@ -720,8 +751,8 @@ section #partners .partner img {
             .main-menu {
                 background-color:rgba(255, 255, 255, 0);
                 position: absolute;
-                padding-left: 250px;
-                padding-top: 20px
+                padding-top: 20px;
+                padding-left: 390px;
                 
               }
               .main-menu ul li {
@@ -746,7 +777,29 @@ section #partners .partner img {
                 min-height: 450px;
                 margin-top: 1em;
               }
+              #title {
+                padding-bottom: 25px;
+              }
+    
+              #left { 
+                text-align: center;
+                border: 3px solid rgba(128, 128, 128, 0.641);
+                margin-bottom: 15px;
+                padding-bottom: 100px;
+                margin-left: 0px;
+               }
           
+              #right { 
+                text-align: center;
+                border: 3px solid rgba(128, 128, 128, 0.641);
+                margin-bottom: 50px;
+                margin-left: 0px;
+               }
+        
+               .text { 
+                padding-left: 0;
+               }
+        
                 footer #nondisclaimer .copy {
                     padding: 3.5em 0em 3.5em 0em;
                     text-align: center;
@@ -761,19 +814,23 @@ section #partners .partner img {
                   }
             }
         
-    
+    */
     
         /* iPhone Sizing SE and below 375 */
     
     @media (max-width: 375px) {
     
-        main-header {
-            background-color: rgb(255, 255, 255, 0.8);
+        .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
         } 
     
+            #home { 
+                background: no-repeat white url(images/cliff_ocean.jpg);
+                background-size: 100% 375px;
+            }
+
         .logo img {
             position: relative;
             bottom: 8px;
@@ -781,7 +838,7 @@ section #partners .partner img {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-left: 85px;
+            padding-left: 300px;
             padding-top: 20px
             
           }
@@ -808,6 +865,35 @@ section #partners .partner img {
             min-height: 450px;
             margin-top: 1em;
           }
+
+          #home .main-col-content {
+            padding: 25px;
+            min-height: 450px;
+            margin-top: 1em;
+          }
+
+          #title {
+            padding-bottom: 25px;
+          }
+
+          #left { 
+            text-align: center;
+            border: 3px solid rgba(128, 128, 128, 0.641);
+            margin-bottom: 15px;
+            padding-bottom: 100px;
+            margin-left: 0px;
+           }
+      
+          #right { 
+            text-align: center;
+            border: 3px solid rgba(128, 128, 128, 0.641);
+            margin-bottom: 50px;
+            margin-left: 0px;
+           }
+    
+           .text { 
+            padding-left: 0;
+           }
     
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
@@ -822,4 +908,99 @@ section #partners .partner img {
                 float: none;
               }
         }
+
+/* resolution 320 */
+
+        @media (max-width: 320px) {
     
+            body { 
+                width: 380px;
+            }
+
+             .main-header {
+                margin: 2em auto 0 auto;
+                min-height: 100px;
+                height: 100px;
+            } 
+        
+                #home { 
+                    background: no-repeat white url(images/cliff_ocean.jpg);
+                    background-size: 380px 380px;
+                }
+    
+            .logo img {
+                position: relative;
+                bottom: 8px;
+            }
+            .main-menu {
+                background-color:rgba(255, 255, 255, 0);
+                position: absolute;
+                padding-left: 300px;
+                padding-top: 20px
+                
+              }
+              .main-menu ul li {
+                border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+                background-color: rgba(38, 41, 61, 0.7);
+              }
+              
+                 #navbarContent{ 
+                text-align: left;
+                margin-left: -100px;
+                margin-top: 45px;
+             }
+            
+        /* Main content */ 
+
+              
+              main {
+                padding: 3em 1em 3em 1em;
+                margin: 0;
+                text-align: center;
+              }
+              #home .main-col-content {
+                padding: 25px;
+                min-height: 450px;
+                margin-top: 1em;
+              }
+
+              #title {
+                padding-bottom: 25px;
+              }
+
+              #left { 
+                border: 3px solid rgba(128, 128, 128, 0.641);
+                margin-bottom: 15px;
+                padding-bottom: 100px;
+                margin-left: 0px;
+               }
+
+              #right { 
+                text-align: center;
+                border: 3px solid rgba(128, 128, 128, 0.641);
+                margin-bottom: 50px;
+                margin-left: 0px;
+               }
+
+               .text { 
+                padding-left: 0;
+               }
+        
+
+/* partners and footer */ 
+
+
+                footer #nondisclaimer .copy {
+                    padding: 3.5em 0em 3.5em 0em;
+                    text-align: center;
+                    float: none;
+                    font-size: 0.9em;
+                  }
+                  footer #nondisclaimer .social {
+                    padding: 2.5em 0;
+                    margin: 0;
+                    text-align: center;
+                    float: none;
+                  }
+            }
+        
