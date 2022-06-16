@@ -470,7 +470,27 @@ section #partners .partner img {
         display: flex;
         flex-wrap: wrap;
        }
-  
+       .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        background-color:rgba(255, 255, 255, 0);
+        position: absolute;
+        padding-top: 20px;
+        
+        
+      }
+      .main-menu ul li {
+        border-bottom: 1px solid rgb(252, 254, 252);
+        background-color: rgba(38, 41, 61, 0.7);
+        z-index: 10;
+      }
+         #navbarContent{ 
+        text-align: left;
+        
+     }
+    
        #title { 
         text-align: center;
         padding-bottom: 40px;
@@ -619,7 +639,8 @@ section #partners .partner img {
          }
         
     
-          
+        /* Main Content */
+
           main {
             padding: 3em 1em 3em 1em;
             margin: 0;
@@ -628,15 +649,18 @@ section #partners .partner img {
             padding: 25px;
             min-height: 450px;
             margin-top: 1em;
-          }
-    
-           #partners {
-            columns: 2;
-            -webkit-columns: 2;
-            -moz-columns: 2;
-          }
-    
-    
+        }
+
+        .grid-item {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 60%;
+            margin-left: 20%;
+        }
+        
+        
+
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
@@ -654,9 +678,9 @@ section #partners .partner img {
     
     
     
-    /* iPhone Sizing X and above 575 */
+    /* iPhone Sizing X and above 425 */
     
-    @media (max-width: 575px) {
+    @media (max-width: 425px) {
     
         .main-header {
             margin: 2em auto 0 auto;
@@ -682,12 +706,12 @@ section #partners .partner img {
           
              #navbarContent{ 
             text-align: left;
-           
             margin-top: 45px;
          }
         
     
-          
+          /* main content */ 
+
           main {
             padding: 3em 1em 3em 1em;
             margin: 0;
@@ -719,25 +743,23 @@ section #partners .partner img {
   
          .text { 
           padding-left: 0;
-         }
+        }
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
                 float: none;
                 font-size: 0.9em;
-              }
-              footer #nondisclaimer .social {
+            }
+            footer #nondisclaimer .social {
                 padding: 2.5em 0;
                 margin: 0;
                 text-align: center;
                 float: none;
-              }
+            }
         
             }
-  
-        /* Small Sizing 414 */
     
-     /*   @media (max-width: 425px) {
+    /*   @media (max-width: 425px) {
     
             .main-header {
                 margin: 2em auto 0 auto;
@@ -841,93 +863,127 @@ section #partners .partner img {
             padding-left: 300px;
             padding-top: 20px
             
-          }
-          .main-menu ul li {
+        }
+        .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
             background-color: rgba(38, 41, 61, 0.7);
-          }
-          
-             #navbarContent{ 
+        }
+        
+            #navbarContent{ 
             text-align: left;
             margin-left: -100px;
             margin-top: 45px;
-         }
+            }
         
     
-          
-          main {
-            padding: 3em 1em 3em 1em;
-            margin: 0;
-            text-align: center;
-          }
-          #home .main-col-content {
+
+        #home .main-col-content {
             padding: 25px;
             min-height: 450px;
             margin-top: 1em;
-          }
+        }
 
-          #home .main-col-content {
+        #home .main-col-content {
             padding: 25px;
             min-height: 450px;
             margin-top: 1em;
-          }
+        }
 
-          #title {
+        #title {
             padding-bottom: 25px;
-          }
-
-          #left { 
+            padding-left: 22px;
+            padding-top: 1px;
+            text-align: center;
+        }
+        #left { 
             text-align: center;
             border: 3px solid rgba(128, 128, 128, 0.641);
             margin-bottom: 15px;
             padding-bottom: 100px;
             margin-left: 0px;
-           }
-      
-          #right { 
+        }
+    
+        #right { 
             text-align: center;
             border: 3px solid rgba(128, 128, 128, 0.641);
             margin-bottom: 50px;
             margin-left: 0px;
-           }
-    
-           .text { 
+        }
+        .text { 
             padding-left: 0;
-           }
+        }
     
+        #cliffspic { 
+            padding-bottom: 30px;
+        }
+
+        #cliffindividual { 
+            margin-bottom: 20px; 
+        }
+
+        #cliffstext{ 
+            padding-bottom: 30px;
+        }
+
+
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
                 text-align: center;
                 float: none;
                 font-size: 0.9em;
-              }
-              footer #nondisclaimer .social {
+            }
+            footer #nondisclaimer .social {
                 padding: 2.5em 0;
                 margin: 0;
                 text-align: center;
                 float: none;
-              }
+            }
         }
 
 /* resolution 320 */
 
         @media (max-width: 320px) {
     
-            body { 
-                width: 380px;
-            }
-
-             .main-header {
+            .main-header {
                 margin: 2em auto 0 auto;
                 min-height: 100px;
                 height: 100px;
+                
             } 
         
-                #home { 
-                    background: no-repeat white url(images/cliff_ocean.jpg);
-                    background-size: 380px 380px;
-                }
-    
+
+            #home { 
+                background: no-repeat white url(images/cliff_ocean.jpg);
+                background-size: 380px 380px;
+                width: 380px
+            }
+
+            #contact1 {
+                background: no-repeat white url(images/cliff_rock.jpg);
+                background-size: 380px 380px;  
+                width: 380px         
+            }
+            
+            #contact  {
+                background: no-repeat white url(images/cliff_ocean.jpg);
+                background-size: 380px 380px;
+                width: 380px        
+            }
+            
+            
+            
+            #activities  {
+                background: no-repeat white url(images/cliff_ocean.jpg);
+                background-size: 380px 380px;
+                width: 380px                  
+            }
+            
+
+
+
+
+
+        
             .logo img {
                 position: relative;
                 bottom: 8px;
@@ -938,54 +994,72 @@ section #partners .partner img {
                 padding-left: 300px;
                 padding-top: 20px
                 
-              }
-              .main-menu ul li {
+            }
+            .main-menu ul li {
                 border-bottom: 1px solid rgba(202, 204, 202, 0.6);
                 background-color: rgba(38, 41, 61, 0.7);
-              }
-              
-                 #navbarContent{ 
+            }
+        
+            #navbarContent{ 
                 text-align: left;
                 margin-left: -100px;
                 margin-top: 45px;
-             }
+            }
             
         /* Main content */ 
 
-              
-              main {
+            
+            main {
                 padding: 3em 1em 3em 1em;
                 margin: 0;
                 text-align: center;
-              }
-              #home .main-col-content {
+            }
+            #home .main-col-content {
                 padding: 25px;
                 min-height: 450px;
                 margin-top: 1em;
-              }
+            }
 
-              #title {
+            #title {
                 padding-bottom: 25px;
-              }
+                padding-left: 22px;
+                padding-top: 1px;
+                text-align: center;
+            }
 
-              #left { 
+            #left { 
                 border: 3px solid rgba(128, 128, 128, 0.641);
                 margin-bottom: 15px;
                 padding-bottom: 100px;
                 margin-left: 0px;
-               }
+            }
 
-              #right { 
+            #right { 
                 text-align: center;
                 border: 3px solid rgba(128, 128, 128, 0.641);
                 margin-bottom: 50px;
                 margin-left: 0px;
-               }
+            }
 
-               .text { 
+            .text { 
                 padding-left: 0;
-               }
+            }
         
+            #cliffspic { 
+                padding-bottom: 30px;
+            }
+
+            #cliffindividual { 
+                margin-bottom: 20px; 
+            }
+
+            #cliffstext{ 
+                padding-bottom: 30px;
+            }
+
+            .title{
+                margin-left: 0;
+            }
 
 /* partners and footer */ 
 
@@ -995,12 +1069,12 @@ section #partners .partner img {
                     text-align: center;
                     float: none;
                     font-size: 0.9em;
-                  }
-                  footer #nondisclaimer .social {
+                }
+                footer #nondisclaimer .social {
                     padding: 2.5em 0;
                     margin: 0;
                     text-align: center;
                     float: none;
-                  }
+                }
             }
         
