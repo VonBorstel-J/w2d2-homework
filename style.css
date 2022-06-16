@@ -104,22 +104,11 @@ h3{
 }
             p{
                 font-family: Arial, Helvetica, sans-serif;
+        }
 
-         }
-
-
-         h1{
-            font-family: Arial, Helvetica, sans-serif;
-            color: #9ed034;
-            font-weight: 750;
-            }
                         p{
                              font-family: Arial, Helvetica, sans-serif;
                              color:rgba(127, 132, 127, 0.963)
-                        }
-                        h1{
-                            font-family: Arial, Helvetica, sans-serif;
-                            
                         }
                             p{
                                         font-family: Arial, Helvetica, sans-serif;
@@ -206,7 +195,7 @@ input[type=text], name {
                     box-sizing: border-box;
                     }
                     
-                         input[type=text], phone {
+                        input[type=text], phone {
                             width: 50%;
                             padding: 14px 20px;
                             margin: 8px 0;
@@ -230,17 +219,17 @@ input[type=text], name {
                                             padding: 10px;
                                             border-color: #9ed034;
                                         }
-                                         
-                                           input[type=radio], contact {
-                                              display: inline-block;
-                                           }
-                                           label:nth-child(3){
+                                        
+                                        input[type=radio], contact {
+                                            display: inline-block;
+                                        }
+                                        label:nth-child(3){
                                             font-weight: bolder;
                                         }
                                         label:nth-child(5){
                                             font-weight: bolder;
                                         }
-                                          
+                                        
                                         .selectmenu  {
                                             padding-top: 10px;
                                             padding-bottom: 10px;
@@ -255,7 +244,7 @@ input[type=text], name {
                                                 border-radius: 4px;
                                                 background-color: #ffffff;
                                                 resize: none;
-                                              }
+                                            }
                                                     select{
                                                         width: 13%;
                                                         text-align: center;
@@ -366,15 +355,17 @@ table {
     width: 1000px;
     margin: 4em auto 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
 }  
 
     caption {
         background: #852b1b;
-        height: 40px;
         color:#fff;
         font-size: 1.3em; 
         font-weight: bold;
         padding-top: 1em;
+        caption-side: top;
+        text-align: center;
     }
 
         th {
@@ -516,7 +507,7 @@ section #partners .partner img {
 
     .row { 
         row-gap: 20px;
-        column-gap: 2px;
+        column-gap: 1px;
     }
 
     #cliffspic { 
