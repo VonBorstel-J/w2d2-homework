@@ -26,11 +26,7 @@ document.getElementById("part").innerHTML = imageList;
 }
     partnersGallery();
 
-
-
-
-
-
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 // Submit button Scripts 
 
@@ -50,7 +46,6 @@ function generateCode(){
         }
         return code; //now itll output the full string of random characters 
     }
-    
     
     
     //This pulls everything and puts in into the HTML 
@@ -89,4 +84,19 @@ function generateCode(){
     
     //Activate function 
 
+
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+// Activity page scripts
+
+$(document).ready(function() {
+    $('td').css('cursor', 'pointer');
+    $("td").click(function() {
+        var content = $(this).text(); 
+        if (content != "Not Available"){ 
+            $(this).toggleClass("tdhighlight");
+            }
+        });
+    });
     
