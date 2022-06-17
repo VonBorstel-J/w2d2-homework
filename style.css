@@ -426,6 +426,39 @@ section {
 
     /* Styling for main content at this resolution */ 
 
+
+    header {
+        width: 100%;
+        min-height: 490px;
+    }
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+
+    #activities  {
+        background: no-repeat white url(images/runfly.jpg);
+        background-size: 100% 600px;
+            }
+    
+
     .main-header { 
         width: 55%;
     }
@@ -512,7 +545,59 @@ section {
 
 @media (max-width: 1024px) {
 
+
+    #home  {
+        background: no-repeat white url(images/cliff_ocean.jpg);
+        background-size: 100% 400px;
+        }
+        
+        #contact1 {
+            background: no-repeat white url(images/cliff_rock.jpg);
+            background-size: 100% 400px;
+        }
+        
+        #contact  {
+            background: no-repeat white url(images/forest_cliff.jpg);
+            background-size: 100% 400px;
+            }
+        
+        
+        
+        #activities  {
+            background: no-repeat white url(images/runfly.jpg);
+            background-size: 100% 579px;
+                }
+        
     /* Styling for main content at this resolution */ 
+
+
+    header {
+        width: 100%;
+        min-height: 443px;
+    }
+
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+
 
     .main-header { 
         width: 55%;
@@ -594,6 +679,37 @@ section {
     /*iPad & beyond Sizing 992*/ 
     
     @media (max-width: 992px) {
+
+        header {
+            width: 100%;
+            min-height: 300px;
+        }
+
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+
+
+
+
         .logo img {
             position: relative;
             bottom: 8px;
@@ -669,6 +785,33 @@ section {
     
     @media (max-width: 768px) {
     
+        header {
+            width: 100%;
+            min-height: 400px;
+        }    
+
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+
         .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
@@ -747,6 +890,34 @@ section {
     
     @media (max-width: 426px) {
     
+        header {
+            width: 100%;
+            min-height: 300px;
+        }    
+
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+
+
         .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
@@ -788,7 +959,8 @@ section {
         
         #title {
             padding-bottom: 25px;
-            text-align: left;
+            text-align: center;
+            padding-left: 0;
     }
     #left { 
         text-align: center;
@@ -833,6 +1005,32 @@ section {
     
     @media (max-width: 376px) {
     
+
+        header {
+            width: 100%;
+            min-height: 200px;
+        }
+
+    /*Responsive Headers*/ 
+
+    #pg1 {
+        width: 100%;
+        min-height: 260px;
+    }
+    
+    #pg2 { 
+
+    }
+
+    #pg3 { 
+
+    }
+
+    #pg4 {
+        
+    }
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
         .main-header {
             margin: 2em auto 0 auto;
             min-height: 100px;
@@ -845,6 +1043,16 @@ section {
                 background-size: 100% 375px;
                 width: 377px;
             }
+
+
+
+            #activities  {
+                background: no-repeat white url(images/runfly.jpg);
+                background-size: 100% 375px;
+                    }
+            
+
+
 
         .logo img {
             position: relative;
@@ -876,17 +1084,20 @@ section {
             margin-top: 1em;
         }
 
-        #home .main-col-content {
-            padding: 25px;
-            min-height: 450px;
-            margin-top: 1em;
-        }
-
         #title {
             padding-bottom: 25px;
             padding-left: 22px;
-            padding-top: 1px;
+            padding-top: 70px;
             text-align: center;
+        }
+        
+        h1{ 
+            padding-left: 80px;
+        }
+
+        #contactingUs{ 
+            text-align: center;
+            padding-left: 0;
         }
         #left { 
             text-align: center;
@@ -918,6 +1129,10 @@ section {
             padding-bottom: 30px;
         }
 
+        p{
+            padding-left: 0;
+            text-align: center;
+        }
 
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
@@ -937,6 +1152,26 @@ section {
 
         @media (max-width: 320px) {
     
+    /*Responsive Headers*/ 
+
+            #pg1 {
+                width: 100%;
+                min-height: 260px;
+            }
+            
+            #pg2 { 
+
+            }
+
+            #pg3 { 
+
+            }
+
+            #pg4 { 
+
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
+            }
             .main-header {
                 margin: 2em auto 0 auto;
                 min-height: 100px;
@@ -971,11 +1206,6 @@ section {
                 width: 380px                  
             }
             
-
-
-
-
-
         
             .logo img {
                 position: relative;
@@ -999,6 +1229,9 @@ section {
                 margin-top: 45px;
             }
             
+
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
+
         /* Main content */ 
 
             
@@ -1061,6 +1294,9 @@ section {
             .title{
                 margin-left: 0;
             }
+
+
+/* <------------------------------------------------------------------------------------------------------------------------------->  */
 
 /* partners and footer */ 
 
