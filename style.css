@@ -3,7 +3,6 @@
 header {
     width: 100%;
     min-height: 275px;
-   
 }
 #home  {
 background: no-repeat white url(images/cliff_ocean.jpg);
@@ -82,10 +81,10 @@ h1{
     padding-left: 45px;
     }
                 p{
-                     font-family: Arial, Helvetica, sans-serif;
-                     color:rgba(0, 0, 0, 0.963);
-                     padding-top: 10px;
-                     padding-left: 45px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color:rgba(0, 0, 0, 0.963);
+                    padding-top: 10px;
+                    padding-left: 45px;
                 }
     
 
@@ -107,20 +106,20 @@ h3{
         }
 
                         p{
-                             font-family: Arial, Helvetica, sans-serif;
-                             color:rgba(127, 132, 127, 0.963)
+                            font-family: Arial, Helvetica, sans-serif;
+                            color:rgba(127, 132, 127, 0.963)
                         }
                             p{
                                         font-family: Arial, Helvetica, sans-serif;
                                         
-                                 }
+                                }
                         
                                 .contactinfo {
                                         font-family: Arial, Helvetica, sans-serif;
                                         color:rgba(127, 132, 127, 0.963);
             
                                     }
-                                         span:first-child {
+                                        span:first-child {
                                             font-weight: bolder;
                                             color:#4977D1;
                                         }
@@ -239,7 +238,7 @@ input[type=text], name {
                                                         width: 13%;
                                                         text-align: center;
                                                     }
-                                                       
+                                                    
 
                                                                 button {
                                                                     border: none;
@@ -469,7 +468,6 @@ section {
         text-align: center;
         border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
-        padding-left: 20px;
     }
 
     #right { 
@@ -483,10 +481,13 @@ section {
         row-gap: 20px;
         column-gap: 1px;
         margin-left: 0%;
+        margin-right: 0%;
+        justify-content: center;
     }
 
     #cliffspic { 
-        margin-left: 15%;
+        margin-bottom: 30px;
+
     }
 
 
@@ -509,7 +510,7 @@ section {
 /* @media Q's */ 
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 
     /* Styling for main content at this resolution */ 
 
@@ -534,7 +535,7 @@ section {
         background-color: rgba(38, 41, 61, 0.597);
         z-index: 10;
     }
-        #navbarContent{ 
+    #navbarContent{ 
         text-align: left;
         float: right;
         
@@ -546,7 +547,7 @@ section {
     }
 
     .text { 
-            padding-left: 0;
+        padding-left: 0;
     }
 
     #left { 
@@ -567,6 +568,9 @@ section {
         justify-content: center;
         row-gap: 20px;
         column-gap: 2px;
+        padding-bottom: 30px;
+        margin-right: 0;
+        padding-left: 1%;
     }
 
 
@@ -669,6 +673,7 @@ section {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
+            min-width: 100%;
         } 
     
         .logo img {
@@ -679,7 +684,7 @@ section {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
             padding-top: 20px;
-            padding-left: 680px;
+            padding-left: 650px;
     }
         .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
@@ -714,7 +719,7 @@ section {
             text-align: center;
             margin-bottom: 20px;
             width: 60%;
-            margin-left: 20%;
+            margin-left: 1%;
         }
         
         .container-fluid { 
@@ -746,6 +751,7 @@ section {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
+            min-width: 100%;
         } 
     
         .logo img {
@@ -755,7 +761,7 @@ section {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-left: 350px;
+            padding-left: 325px;
             padding-top: 20px
             
         }
@@ -769,9 +775,7 @@ section {
             margin-top: 45px;
         }
         
-    
-          /* main content */ 
-
+        /* main content */
         main {
             padding: 3em 1em 3em 1em;
             margin: 0;
@@ -833,7 +837,7 @@ section {
             margin: 2em auto 0 auto;
             min-height: 100px;
             height: 100px;
-            padding-left: -45px;
+            min-width: 100%;
         } 
     
             #home { 
@@ -849,7 +853,7 @@ section {
         .main-menu {
             background-color:rgba(255, 255, 255, 0);
             position: absolute;
-            padding-left: 300px;
+            padding-left: 279px;
             padding-top: 20px
             
         }
