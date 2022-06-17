@@ -204,17 +204,7 @@ input[type=text], name {
                             border-radius: 4px;
                             box-sizing: border-box;
                                 }
-                                    input[type=submit] {
-                                        width: 10%;
-                                        /*background-color: #4CAF50;*/
-                                        color: white;
-                                        padding: 14px 20px;
-                                        margin: 8px 0;
-                                        border: none;
-                                        border-radius: 4px;
-                                        cursor: pointer;
-                                        align-content: center;
-                                    }
+                                    
                                         form, fieldset {
                                             padding: 10px;
                                             border-color: #9ed034;
@@ -249,18 +239,19 @@ input[type=text], name {
                                                         width: 13%;
                                                         text-align: center;
                                                     }
-                                                            form .button input {
-                                                                width: 8em;
-                                                                height: 2.5em;
-                                                                font-size: 1.2em;
-                                                                font-weight: bold;
-                                                                /*backgroung-color: #4977D1;*/
-                                                                color: #ffffff; 
-                                                                border: none;
-                                                            }
+                                                       
 
-                                                                .button {
-                                                                    padding-left: 40%;
+                                                                button {
+                                                                    border: none;
+                                                                    color: white;
+                                                                    padding: 15px 32px;
+                                                                    text-align: center;
+                                                                    text-decoration: none;
+                                                                    display: inline-block;
+                                                                    font-size: 16px;
+                                                                    border-radius: 5%;
+                                                                    font-size: x-large;
+                                                                    margin-left: 40%;
                                                                 }
                                                                     
                                                                     .randomcode { 

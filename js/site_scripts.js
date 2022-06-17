@@ -59,15 +59,15 @@ function generateCode(){
     
     //This code will determine whether to disable to enable the button 
     function disableButton(btnvalue)  {
-        document.getElementById("submit").disabled = btnvalue; // this is the code that will enable or disable 
+        document.getElementById("button").disabled = btnvalue; // this is the code that will enable or disable 
         if (btnvalue == true) {//testing if button is disabled or enabled 
            //set button and label color translucent 
-        document.getElementById("submit").style.backgroundColor = "rgba(73, 119, 209, 0.3)";
-        document.getElementById("submit").style.color = "rgba(255, 255, 255, 0.5)";
+        document.getElementById("button").style.backgroundColor = "rgba(73, 119, 209, 0.3)";
+        document.getElementById("button").style.color = "rgba(255, 255, 255, 0.5)";
         } else { 
             //set button andlabel color with no transparency  
-            document.getElementById("submit").style.backgroundColor = "rgba(73, 119, 209, 1)";
-            document.getElementById("submit").style.color = "rgba(255, 255, 255, 1)";
+            document.getElementById("button").style.backgroundColor = "rgba(73, 119, 209, 1)";
+            document.getElementById("button").style.color = "rgba(255, 255, 255, 1)";
         }
     }
     
