@@ -423,7 +423,7 @@ section {
 /* @media Q's */ 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1439px) {
 
     /* Styling for main content at this resolution */ 
 
@@ -469,7 +469,6 @@ section {
         text-align: center;
         border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
-        margin-left: 83px;
         padding-left: 20px;
     }
 
@@ -483,6 +482,7 @@ section {
     .row { 
         row-gap: 20px;
         column-gap: 1px;
+        margin-left: 0%;
     }
 
     #cliffspic { 
@@ -516,7 +516,6 @@ section {
     .main-header { 
         width: 55%;
     }
-
 
     .container-fluid { 
         display: flex;
@@ -554,7 +553,7 @@ section {
         text-align: center;
         border: 3px solid rgba(128, 128, 128, 0.641);
         margin-bottom: 50px;
-        margin-left: 83px;
+        
     }
 
     #right { 
@@ -565,7 +564,7 @@ section {
     }
 
     .row { 
-        margin: 1%;
+        justify-content: center;
         row-gap: 20px;
         column-gap: 2px;
     }
@@ -681,30 +680,30 @@ section {
             position: absolute;
             padding-top: 20px;
             padding-left: 680px;
-          }
-          .main-menu ul li {
+    }
+        .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
             background-color: rgba(38, 41, 61, 0.7);
-          }
+        }
 
-          .text { 
+        .text { 
             padding-left: 0;
-           }
-          
-             #navbarContent{ 
+        }
+        
+            #navbarContent{ 
             text-align: left;
             margin-left: -100px;
             margin-top: 45px;
-         }
+        }
         
     
         /* Main Content */
 
-          main {
+        main {
             padding: 3em 1em 3em 1em;
             margin: 0;
-          }
-          #home .main-col-content {
+    }
+        #home .main-col-content {
             padding: 25px;
             min-height: 450px;
             margin-top: 1em;
@@ -727,13 +726,13 @@ section {
                 text-align: center;
                 float: none;
                 font-size: 0.9em;
-              }
-              footer #nondisclaimer .social {
+        }
+            footer #nondisclaimer .social {
                 padding: 2.5em 0;
                 margin: 0;
                 text-align: center;
                 float: none;
-              }
+            }
         }
     
     
@@ -759,56 +758,56 @@ section {
             padding-left: 350px;
             padding-top: 20px
             
-          }
-          .main-menu ul li {
+        }
+        .main-menu ul li {
             border-bottom: 1px solid rgba(202, 204, 202, 0.6);
             background-color: rgba(38, 41, 61, 0.7);
-          }
-          
-             #navbarContent{ 
+        }
+        
+            #navbarContent{ 
             text-align: left;
             margin-top: 45px;
-         }
+        }
         
     
           /* main content */ 
 
-          main {
+        main {
             padding: 3em 1em 3em 1em;
             margin: 0;
-          }
-          #home .main-col-content {
+        }
+        #home .main-col-content {
             padding: 25px;
             min-height: 450px;
             margin-top: 1em;
-          }
+        }
         
-          #title {
+        #title {
             padding-bottom: 25px;
             text-align: left;
-          }
-        #left { 
-          text-align: center;
-          border: 3px solid rgba(128, 128, 128, 0.641);
-          margin-bottom: 15px;
-          padding-bottom: 100px;
-          margin-left: 0px;
-         }
+    }
+    #left { 
+        text-align: center;
+        border: 3px solid rgba(128, 128, 128, 0.641);
+        margin-bottom: 15px;
+        padding-bottom: 100px;
+        margin-left: 2px;
+    }
     
-        #right { 
-          text-align: center;
-          border: 3px solid rgba(128, 128, 128, 0.641);
-          margin-bottom: 15px;
-          margin-left: 0px;
-         }
-  
-         .text { 
-          padding-left: 0;
+    #right { 
+        text-align: center;
+        border: 3px solid rgba(128, 128, 128, 0.641);
+        margin-bottom: 15px;
+        margin-left: 2px;
+    }
+        .text { 
+        padding-left: 0;
         }
 
-       #part{ 
-         padding-left: 17px;
-       }
+    #part{ 
+        padding-left: 17px;
+        width: 100%;
+    }
 
             footer #nondisclaimer .copy {
                 padding: 3.5em 0em 3.5em 0em;
@@ -840,6 +839,7 @@ section {
             #home { 
                 background: no-repeat white url(images/cliff_ocean.jpg);
                 background-size: 100% 375px;
+                width: 377px;
             }
 
         .logo img {
