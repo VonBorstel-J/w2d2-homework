@@ -108,6 +108,6 @@ $(document).ready(function() {
             $('#activityText').bind('click', function(){ 
                 $(this).toggleClass('blue');
             });
-      });
     });
+ });
  
