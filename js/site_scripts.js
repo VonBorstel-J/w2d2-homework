@@ -99,7 +99,8 @@ $(document).ready(function() {
         });
     });
     
-    $(document).ready(function() {
+    //Stuck........ Losttttt........ 
+    /*$(document).ready(function() {
         var trText = 'doot doot'
         $('#activityModal').modal( {
             keyboard: true,
@@ -109,5 +110,4 @@ $(document).ready(function() {
                 $(this).toggleClass('blue');
             });
     });
- });
- 
+ });*/
