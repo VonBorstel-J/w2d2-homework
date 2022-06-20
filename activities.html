@@ -68,7 +68,7 @@
         </p>
 
         
-
+  <div class="table-responsive">
     <table style="padding-bottom: 100px;">
         <caption style="font-family: Arial, Helvetica, sans-serif;"> Activities at the Cliffs </caption>
         <thead>
@@ -78,35 +78,35 @@
             <th>East Cliff</th>
             <th>South Cliff</th>
         </thead>
-            <tr>
+            <tr data-toggle="modal" data-id="1" data-target="#activityModal">
                 <td>Hiking</td>
                 <td>College Hikes</td>
                 <td>Family Fun</td>
                 <td>Treasure Trails</td>
                 <td>Canyon Explorer</td>
             </tr>
-                    <tr>
+                    <tr data-toggle="modal" data-id="2" data-target="#activityModal">
                         <td>Kayak</td>
                         <td>Western Kayak Meetup</td>
                         <td>Not Available</td>
                         <td>Youth Kayaking</td>
                         <td>Kayak Down</td>
                     </tr>
-                        <tr>
+                        <tr data-toggle="modal" data-id="3" data-target="#activityModal">
                             <td>Skydiving</td>
                             <td>Seacliff Diving</td>
                             <td>Sky is the limit</td>
                             <td>Not Available</td>
                             <td>Sky Diving for Beginners</td>
                         </tr>
-                                <tr>
+                                <tr data-toggle="modal" data-id="4" data-target="#activityModal">
                                     <td>Biking</td>
                                     <td>Bicycle for One</td>
                                     <td>Not Available</td>
                                     <td>Bike Meetup Group</td>
                                     <td>Not Available</td>
                                 </tr>
-                                        <tr>
+                                        <tr data-toggle="modal" data-id="5" data-target="#activityModal">
                                             <td>Camping</td>
                                             <td>Youth Camp</td>
                                             <td>Rent a Tent</td>
@@ -115,7 +115,39 @@
                                         </tr>
 
     </table>
-    
+  </div> 
+  
+  <!-- Modal -->
+<div class="modal fade" id="activityModal" tabindex="-1" role="dialog" aria-labelledby="activityModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="activityModalLabel">My selected activities to enquire: </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="activityName" class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back to Activities</button>
+        <button type="button" class="btn btn-primary">Get Info</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
     </main>
     
 

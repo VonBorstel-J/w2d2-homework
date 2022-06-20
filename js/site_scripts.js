@@ -84,8 +84,7 @@ function generateCode(){
     
     //Activate function 
 
-
-
+    
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 // Activity page scripts
@@ -100,3 +99,17 @@ $(document).ready(function() {
         });
     });
     
+    $(document).ready(function(){
+        $('#activityModal').modal({
+            keyboard: true,
+            backdrop: "static",
+            show:false,
+    
+        }).on('show', function(){ //subscribe to show method
+            $(function(){
+                $("#activityName").click(function(){
+                    var data1 = $(this).find("td:eq(0) input[type='text']").val();
+                    var data2 = $(this).find("td:eq(1) input[type='text']").val();
+                });
+            });
+    });
