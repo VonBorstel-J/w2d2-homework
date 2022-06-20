@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css" />
     
   </head>
-  <body id="activities" onLoad="disableButton(true)">
+  <body id="activities">
 
 
     <div class="main-header sticky-top">
@@ -78,40 +78,40 @@
             <th>East Cliff</th>
             <th>South Cliff</th>
         </thead>
-            <tr data-toggle="modal" data-id="1" data-target="#activityModal">
+            <tr >
                 <td>Hiking</td>
-                <td>College Hikes</td>
-                <td>Family Fun</td>
-                <td>Treasure Trails</td>
-                <td>Canyon Explorer</td>
+                <td data-toggle="modal" data-id="1" data-target="#activityModal"data-toggle="modal" data-id="1" data-target="#activityModal">College Hikes</td>
+                <td data-toggle="modal" data-id="1" data-target="#activityModal"data-toggle="modal" data-id="1" data-target="#activityModal">Family Fun</td>
+                <td data-toggle="modal" data-id="1" data-target="#activityModal"data-toggle="modal" data-id="1" data-target="#activityModal">Treasure Trails</td>
+                <td data-toggle="modal" data-id="1" data-target="#activityModal"data-toggle="modal" data-id="1" data-target="#activityModal">Canyon Explorer</td>
             </tr>
-                    <tr data-toggle="modal" data-id="2" data-target="#activityModal">
+                    <tr>
                         <td>Kayak</td>
-                        <td>Western Kayak Meetup</td>
+                        <td data-toggle="modal" data-id="2" data-target="#activityModal">Western Kayak Meetup</td>
                         <td>Not Available</td>
-                        <td>Youth Kayaking</td>
-                        <td>Kayak Down</td>
+                        <td data-toggle="modal" data-id="2" data-target="#activityModal">Youth Kayaking</td>
+                        <td data-toggle="modal" data-id="2" data-target="#activityModal">Kayak Down</td>
                     </tr>
-                        <tr data-toggle="modal" data-id="3" data-target="#activityModal">
+                        <tr>
                             <td>Skydiving</td>
-                            <td>Seacliff Diving</td>
-                            <td>Sky is the limit</td>
+                            <td data-toggle="modal" data-id="3" data-target="#activityModal">Seacliff Diving</td>
+                            <td data-toggle="modal" data-id="3" data-target="#activityModal">Sky is the limit</td>
                             <td>Not Available</td>
-                            <td>Sky Diving for Beginners</td>
+                            <td data-toggle="modal" data-id="3" data-target="#activityModal">Sky Diving for Beginners</td>
                         </tr>
-                                <tr data-toggle="modal" data-id="4" data-target="#activityModal">
+                                <tr>
                                     <td>Biking</td>
-                                    <td>Bicycle for One</td>
-                                    <td>Not Available</td>
-                                    <td>Bike Meetup Group</td>
+                                    <td data-toggle="modal" data-id="4" data-target="#activityModal">Bicycle for One</td>
+                                    <td data-toggle="modal" data-id="4" data-target="#activityModal">Not Available</td>
+                                    <td data-toggle="modal" data-id="4" data-target="#activityModal">Bike Meetup Group</td>
                                     <td>Not Available</td>
                                 </tr>
-                                        <tr data-toggle="modal" data-id="5" data-target="#activityModal">
+                                        <tr>
                                             <td>Camping</td>
-                                            <td>Youth Camp</td>
-                                            <td>Rent a Tent</td>
-                                            <td>Campground Adventure</td>
-                                            <td>Sunset Camping</td>
+                                            <td data-toggle="modal" data-id="5" data-target="#activityModal">Youth Camp</td>
+                                            <td data-toggle="modal" data-id="5" data-target="#activityModal">Rent-a-Tent</td>
+                                            <td data-toggle="modal" data-id="5" data-target="#activityModal">Campground Adventure</td>
+                                            <td data-toggle="modal" data-id="5" data-target="#activityModal">Sunset Camping</td>
                                         </tr>
 
     </table>
@@ -127,8 +127,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div id="activityName" class="modal-body">
-        
+      <div class="modal-body">
+        <p id="activityText"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Back to Activities</button>
